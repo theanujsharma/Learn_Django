@@ -1,0 +1,6 @@
+{% extends 'wwcodepython/layout.html'%}
+{% block body %}
+<h1>This is not available, there is something wrong with this {{name}}</h1>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'applaud' % }">Applaud</a>
+{% endblock%}
